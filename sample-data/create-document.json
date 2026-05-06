@@ -1,0 +1,8 @@
+{
+  "name": "Engineering Notes",
+  "content": "Initial draft...",
+  "ownerId": "user-a",
+  "isPublic": false,
+  "permissionType": "MULTIPLE_USERS",
+  "permittedUsers": ["user-b", "user-c"]
+}
