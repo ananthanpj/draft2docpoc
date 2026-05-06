@@ -1,0 +1,8 @@
+<div>
+  <h3>{{doc?.name}}</h3>
+  <p>Locked by: {{doc?.lockedBy || 'none'}}</p>
+  <button (click)="lock()">Edit</button>
+  <button (click)="save()" [disabled]="locked">Save</button>
+  <button (click)="unlock()">Unlock</button>
+  <textarea [formControl]="content" rows="14" cols="120" [readonly]="locked"></textarea>
+</div>
